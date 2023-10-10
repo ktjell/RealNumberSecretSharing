@@ -53,26 +53,3 @@ class RNS():
         d = self.rec(self.mult(s1,a))
         return 1/d * a
     
-
-#n=7
-#t = 3
-#
-##secret = 5
-##
-#x = np.linspace(1,n,n)
-#
-#rns = RNS(x,n,t)
-#
-##
-#s1 = rns.sharing(34.5)
-#s2 = rns.sharing(3.42)
-##
-#plt.plot(x[:3],s1[:3], 'go')
-#plt.plot(x[:3],s2[:3], 'bo')
-#K, d,e= rns.mult(s1,s2)
-#plt.plot(4,d, 'ro')
-#plt.plot(5,e, 'yo')
-#plt.plot(0,34.5, 'ro')
-#print(rns.rec(K))
-#print(34.5*3.42)
-##print(rns.rec(rns.div(s1)))
